@@ -18,8 +18,8 @@
 
     .border2 {
       margin-top: 80px;
-      height: 510px;
-      width: 390px;
+      height: 550px;
+      width: 375px;
       background: hsla(215, 57%, 10%, 0.65);
       border-radius: 10px;
       z-index: 4;
@@ -28,8 +28,8 @@
 
     .border1 {
       margin: 15px;
-      height: 490px;
-      width: 360px;
+      height: 530px;
+      width: 345px;
       background: hsl(216, 58%, 10%);
       border-radius: 10px;
       z-index: 3;
@@ -38,8 +38,8 @@
 
     .card {
       margin: 15px;
-      height: 450px;
-      width: 332px;
+      height: 490px;
+      width: 320px;
       background: hsl(216, 50%, 16%);
       border-radius: 10px;
       z-index: 2;
@@ -47,13 +47,13 @@
     }
     .subcard {
       margin: 15px;
-      height: 400px;
-      width: 300px;
+      height: 470px;
+      width: 290px;
       background: hsl(216, 50%, 16%);
       z-index: 1;
       position: absolute;
       display: grid;
-      grid-template-rows: 250px 1fr 1fr 1fr 1fr;
+      grid-template-rows: 270px 1fr 1fr 1fr 1fr;
       overflow: hidden;
     }
 
@@ -61,6 +61,7 @@
     .card img {
       width: 100%;
       height: 100%;
+      border-radius: 5%;
     }
 
     .subcard .item:nth-child(4) {
@@ -70,12 +71,61 @@
 
     .subcard .item .subitem:nth-child(1) {
       grid-column: 1 / 2;
-      margin-left: 5px;
+      text-align: left;
+      margin-top: 13px;
+      color: cyan;
+      border-bottom: 1.35px solid  hsl(215, 37%, 27%);
+      
+    }
+
+    .subcard .item .subitem .ether {
+      height: 12px;
+      width: 7px;
     }
 
     .subcard .item .subitem:nth-child(2) {
       grid-column: 2 / 3;
-      margin-left: 5px;
+      text-align: right;
+      margin-top: 13px;
+      color: hsl(215, 51%, 70%);
+      border-bottom: 1.35px solid  hsl(215, 37%, 27%);  
+    }
+
+    .subcard .item .subitem .clock {
+      height: 14px;
+      width: 14px;
+      margin-right: 5px;
+    }
+
+    .subcard .item:nth-child(3) {
+      color: hsl(215, 51%, 70%);
+    }
+
+    .subcard .item:nth-child(5) {
+      color: hsl(215, 51%, 70%);
+      text-align: left;
+      margin-top: 15px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+    }
+    
+    .subcard .item:nth-child(2) {
+      color: white;
+      margin-top: 15px;
+    }
+
+    .subcard .item a {
+      color: white;
+    }
+
+    .subcard .item .author {
+      width: 23px;
+      height: 23px;
+      border-color: whitesmoke;
+      border-style: solid;
+      border-width: 1.35px;
+      border-radius: 50%;
+      margin-right: 15px;
     }
   </style>
 </head>
@@ -86,16 +136,16 @@
   <section class="card">
 
     <section class="subcard">
-    <img src="https://lh3.googleusercontent.com/fgT5uHcmE-7QuZlPE3hnUj9sbNrD8__tlLyHkGqf0Y0XvUz-PwKLPnWhKnrU9VHA0Bfbmari-Xbh3H-52vMvZ8iS9bg7SWHhbGIZ4du7zSzHNvTXrsBcGoZNegfcVS2VUBxPwM_3CgZEgqVIaabtwnF7KjulbIOtJ9-qWP8H0ENKCS5ytSoajkgxfFb2lrIJyPQic5oj6VG1Z8TQdNVWEC8kaSEQSjrjixXY7MQf2inW1xYLCjwJWrpmMDF4hWISC2A4hGvgTmtVSxj720FWA1OG-J6d6nja8nwUKv9ZmsJxthtsxg55dQg9pVWVekQ98veejOrUStFhySrKFp_0qwqDeUMadRT92dlPRwVBykM-evJsfBP6p0nY6eN2W1TqwK2EfuSs9sj35RMTBIHsGPgQscIB894T8IsPn95tIv4HxpePhSjhsCxjI_KJFks4i2H2HxK2Il0qjO74ZdTlVxh8zsKxrn0mBS5XLsd0aLvQnfQm-YdFznMbvPDAtIvFU6JBmL0SSpCitbNGTfdy8fdCWYRo5dTYRSEANvC-xJdmM9OLRkBSaqULSxunQjbgjzSmV9pa5296a_-G-NWJKXYIFNIFoZxD5yS-7yT_IOPHAj-ulT4X31WJX7qsWQ73yCJbIQZE1l5eLtM5VHn52G9dEJwTypewzFfztLVWuXwynzOD2cdljN9x8PbuQWLAg82V7l9HKM67-CovlyxItlM=s604-no?authuser=0" alt="nftimage" id="nftcard">
+    <img src="/home/sjlo/Respaldo/platzi/Escuela_Desarrollo_WEB/FrontendChallenges/NFTcardpreview/repo/images/image-equilibrium.jpg" alt="nftimage" id="nftcard">
     <div class="item"> Equilibrium #3429</div> 
     <div class="item">Our Equilibrium collection promotes balance and calm.</div>
     <div class="item">
-      <div class="subitem">0.041 ETH
+      <div class="subitem"> <img src="/home/sjlo/Respaldo/platzi/Escuela_Desarrollo_WEB/FrontendChallenges/NFTcardpreview/repo/images/icon-ethereum.svg" alt="icon-ethereum" class="ether"> 0.041 ETH
         </div>
-        <div class="subitem">days left
+        <div class="subitem"> <img src="/home/sjlo/Respaldo/platzi/Escuela_Desarrollo_WEB/FrontendChallenges/NFTcardpreview/repo/images/icon-clock.svg" alt="icon-clock" class="clock">3 days left
         </div>   
       </div>
-    <div class="item">Creation of Jules Wyvern</div>
+    <div class="item"> <img src="/home/sjlo/Respaldo/platzi/Escuela_Desarrollo_WEB/FrontendChallenges/NFTcardpreview/repo/images/image-avatar.png" alt="Jules Wyvern" class="author">Creation of <a>Jules Wyvern</a></div>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

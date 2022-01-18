@@ -1,28 +1,3 @@
-# NFTcardpreview
-NFT  card challenge - CSS / HTML skills - learning challenge
-
-Hi! I'm rockwatch, this is a little info about this project. Please feel free to fork or share the project, thanks!
-
-# Frontend Mentor - NFT preview card component solution
-
-This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-## Overview
-
 ### The challenge
 
 Users should be able to:
@@ -53,9 +28,16 @@ Users should be able to:
 
 ### What I learned
 
+ - Learned to use Google fonts API's
+ - Structure images in a single space
+ - Create a grid inside another grid
+ - How to insert images without crashing the code
 
 ### Continued development
 
+ - Better way to place content from grid items
+ - Improve sizing on different media
+ - To learn different methods to set easy margins
 
 ### Useful resources
 

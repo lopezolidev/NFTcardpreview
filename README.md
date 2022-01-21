@@ -11,12 +11,10 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [At frontendmentor](https://www.frontendmentor.io/solutions/nft-card-preview-with-hovering-states-on-image-and-text-_XIsg-MNi)
 - Live Site URL: [Here](https://rockwatch.github.io/NFTcardpreview/)
 
-## My process
-
-<<EDIT>>
+### My Process
 
 ### Built with
 
@@ -32,12 +30,14 @@ Users should be able to:
  - Structure images in a single space
  - Create a grid inside another grid
  - How to insert images without crashing the code
+ - How to do opacity transitions
 
 ### Continued development
 
  - Better way to place content from grid items
  - Improve sizing on different media
  - To learn different methods to set easy margins
+ - Animate opacity transitions on background images and overlaying text
 
 ### Useful resources
 

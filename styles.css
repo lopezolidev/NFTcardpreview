@@ -50,14 +50,35 @@
       overflow: hidden;
     }
 
+    .card .subcard .image {
+      position: relative;
+    }
 
     .card #nftcard {
       width: 100%;
       height: 100%;
       border-radius: 5%;
+      display: block;
     }
 
+    .card .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background:hsl(178, 100%, 50%, 0.50);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      transition: opacity 0.25s;
+      border-radius: 5%;
+    }
 
+    .card .overlay:hover {
+      opacity: 1;
+    }
 
     .subcard .item:nth-child(4) {
       display: grid;

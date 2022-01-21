@@ -76,8 +76,17 @@
       border-radius: 5%;
     }
 
+    .card .overlay .eye {
+      transform: translateY(20px);
+      transition: transform 0.25s;
+    }
+
     .card .overlay:hover {
       opacity: 1;
+    }
+
+    .card .overlay:hover .eye {
+      transform: translateY(0);
     }
 
     .subcard .item:nth-child(4) {

@@ -116,7 +116,7 @@
       text-align: left;
       margin-top: 8px;
       color: var(--Cyan);
-      border-bottom: 1.35px solid  var(--Softblue);
+      border-bottom: 1.35px solid  hsl(215, 29%, 28%);
       font-weight: 400;
       margin-left: 5px;
       
@@ -132,7 +132,7 @@
       text-align: right;
       margin-top: 8px;
       color: var(--Softblue);
-      border-bottom: 1.35px solid  var(--Softblue);  
+      border-bottom: 1.35px solid hsl(215, 29%, 28%) ;  
       font-weight: 300;
 
     }

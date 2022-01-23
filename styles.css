@@ -28,7 +28,7 @@
    
     .border2 {
       margin-top: 70px;
-      height: 580px;
+      height: 590px;
       width: 375px;
       background: hsla(215, 57%, 10%, 0.65);
       border-radius: 10px;
@@ -38,7 +38,7 @@
 
     .border1 {
       margin: 15px;
-      height: 560px;
+      height: 570px;
       width: 345px;
       background: hsl(216, 58%, 10%);
       border-radius: 10px;
@@ -48,7 +48,7 @@
 
     .card {
       margin: 15px;
-      height: 520px;
+      height: 530px;
       width: 320px;
       background: var(--Verydarkblue);
       border-radius: 10px;
@@ -56,14 +56,14 @@
       position: absolute;
     }
     .subcard {
-      margin: 15px;
+      margin:20px;
       height: 500px;
-      width: 290px;
+      width: 280px;
       background: var(--Verydarkblue);
       z-index: 1;
       position: absolute;
       display: grid;
-      grid-template-rows: 290px 1fr 1fr 1fr 1fr;
+      grid-template-rows: 270px 1fr 1fr 1fr 1fr;
       overflow: hidden;
     }
 
@@ -134,7 +134,6 @@
       color: var(--Softblue);
       border-bottom: 1.35px solid hsl(215, 29%, 28%) ;  
       font-weight: 300;
-
     }
 
     .subcard .item .subitem svg:nth-child(2) {
@@ -146,21 +145,23 @@
     .subcard .item:nth-child(3) {
       color: var(--Softblue);
       font-weight: 300;
+      line-height: 26px;
+      font-size: medium;
     }
 
     .subcard .item:nth-child(5) {
       color: var(--Softblue);
       text-align: left;
-      margin-top: 15px;
       margin-left: 10px;
-      margin-bottom: 10px;
+      margin-top: 17px;
       font-weight: 300;
     }
     
     .subcard .item:nth-child(2) {
       color: var(--White);
-      margin-top: 15px;
+      margin-top: 18px;
       font-weight: 600;
+      font-size: 22px;
     }
    
     .subcard .item:nth-child(2):hover {
@@ -177,14 +178,15 @@
     }
 
     .subcard .item .author {
-      width: 23px;
-      height: 23px;
+      width: 30px;
+      height: 30px;
       border-color: var(--White);
       border-style: solid;
       border-width: 1.35px;
       border-radius: 50%;
       margin-right: 15px;
       font-weight: 300;
+      margin-bottom: -10px;
     }
 
     .attribution   { 
@@ -198,3 +200,16 @@
       .attribution a  {
        color: hsl(228, 45%, 44%);
     }
+
+
+    @media (max-width: 375px) {
+      .border2 {
+        /*margin-top: 70px;
+        height: 590px;
+        width: 375px;
+        background: hsla(215, 57%, 10%, 0.65);
+        border-radius: 10px;
+        z-index: 4;
+        position: relative;*/
+      }
+      } 
